@@ -24,6 +24,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDt-Gg-OcC">
+                                <rect key="frame" x="123" y="488" width="169" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Already have an account"/>
+                                <connections>
+                                    <segue destination="zn0-az-KEX" kind="show" id="XMs-sp-pta"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -32,10 +40,49 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3lF-a0-OCu"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ex9-ce-Ncr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKd-WF-nTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-109" y="108"/>
+            <point key="canvasLocation" x="800.00000000000011" y="107.8125"/>
+        </scene>
+        <!--Sign In View Controller-->
+        <scene sceneID="9XL-XN-7LX">
+            <objects>
+                <viewController id="zn0-az-KEX" customClass="SignInViewController" customModule="jaguarteam_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UmS-z0-wrI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVE-SG-bAs">
+                                <rect key="frame" x="181" y="437.5" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xP6-Zw-Le5">
+                                <rect key="frame" x="155" y="484" width="105" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Create account"/>
+                                <connections>
+                                    <segue destination="ECI-lr-zXE" kind="show" id="hZ7-CN-B11"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LVE-SG-bAs" firstAttribute="centerY" secondItem="UmS-z0-wrI" secondAttribute="centerY" id="6sL-AE-Dtn"/>
+                            <constraint firstItem="LVE-SG-bAs" firstAttribute="centerX" secondItem="UmS-z0-wrI" secondAttribute="centerX" id="7zC-zb-Me9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="caX-3W-Wm6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JR1-0c-gX1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1547.8260869565217" y="107.8125"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XMs-sp-pta"/>
+    </inferredMetricsTieBreakers>
 </document>
