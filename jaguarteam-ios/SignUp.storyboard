@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ECI-lr-zXE">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -44,12 +44,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKd-WF-nTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800.00000000000011" y="107.8125"/>
+            <point key="canvasLocation" x="1710.144927536232" y="107.8125"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="9XL-XN-7LX">
             <objects>
-                <viewController id="zn0-az-KEX" customClass="SignInViewController" customModule="jaguarteam_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignInViewController" id="zn0-az-KEX" customClass="SignInViewController" customModule="jaguarteam_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UmS-z0-wrI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,24 +65,68 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create account"/>
                                 <connections>
-                                    <segue destination="ECI-lr-zXE" kind="show" id="hZ7-CN-B11"/>
+                                    <segue destination="ECI-lr-zXE" kind="show" id="0Hm-ro-3DM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBf-PE-WlQ">
+                                <rect key="frame" x="51" y="538" width="312" height="30"/>
+                                <state key="normal" title="Forget password"/>
+                                <connections>
+                                    <segue destination="3qp-7v-uvm" kind="presentation" id="8xo-42-Tyd"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="caX-3W-Wm6" firstAttribute="trailing" secondItem="KBf-PE-WlQ" secondAttribute="trailing" constant="51" id="6a9-sX-4Dn"/>
                             <constraint firstItem="LVE-SG-bAs" firstAttribute="centerY" secondItem="UmS-z0-wrI" secondAttribute="centerY" id="6sL-AE-Dtn"/>
                             <constraint firstItem="LVE-SG-bAs" firstAttribute="centerX" secondItem="UmS-z0-wrI" secondAttribute="centerX" id="7zC-zb-Me9"/>
+                            <constraint firstItem="caX-3W-Wm6" firstAttribute="bottom" secondItem="KBf-PE-WlQ" secondAttribute="bottom" constant="294" id="FVe-Gm-RUc"/>
+                            <constraint firstItem="KBf-PE-WlQ" firstAttribute="centerX" secondItem="UmS-z0-wrI" secondAttribute="centerX" id="gxb-Jd-dfK"/>
+                            <constraint firstItem="caX-3W-Wm6" firstAttribute="bottom" secondItem="KBf-PE-WlQ" secondAttribute="bottom" constant="294" id="iEe-g3-fVq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="caX-3W-Wm6"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JR1-0c-gX1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1547.8260869565217" y="107.8125"/>
+            <point key="canvasLocation" x="2457.971014492754" y="107.8125"/>
+        </scene>
+        <!--Forget Password View Controller-->
+        <scene sceneID="Vhk-Ue-DuV">
+            <objects>
+                <viewController id="3qp-7v-uvm" customClass="ForgetPasswordViewController" customModule="jaguarteam_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F8J-cH-Qn3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1Y-Vf-f1Y">
+                                <rect key="frame" x="143" y="437.5" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZX-Ix-oET">
+                                <rect key="frame" x="319" y="59" width="54" height="30"/>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="3qp-7v-uvm" eventType="touchUpInside" id="1bX-eG-T81"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p1Y-Vf-f1Y" firstAttribute="centerX" secondItem="F8J-cH-Qn3" secondAttribute="centerX" id="FCN-tU-qDR"/>
+                            <constraint firstItem="zsU-tY-mNq" firstAttribute="trailing" secondItem="mZX-Ix-oET" secondAttribute="trailing" constant="41" id="Hze-I6-rgr"/>
+                            <constraint firstItem="p1Y-Vf-f1Y" firstAttribute="centerY" secondItem="F8J-cH-Qn3" secondAttribute="centerY" id="XUR-Uk-K7I"/>
+                            <constraint firstItem="mZX-Ix-oET" firstAttribute="top" secondItem="zsU-tY-mNq" secondAttribute="top" constant="15" id="hvR-nJ-MNH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zsU-tY-mNq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FnL-zs-RYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3193" y="109"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="XMs-sp-pta"/>
-    </inferredMetricsTieBreakers>
 </document>
