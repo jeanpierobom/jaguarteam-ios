@@ -75,6 +75,13 @@
                                     <segue destination="3qp-7v-uvm" kind="presentation" id="8xo-42-Tyd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBk-7U-7RF">
+                                <rect key="frame" x="150" y="592" width="114" height="30"/>
+                                <state key="normal" title="Home (login OK)"/>
+                                <connections>
+                                    <segue destination="W7l-2Q-QkR" kind="show" id="wYx-ma-DRz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -82,8 +89,10 @@
                             <constraint firstItem="LVE-SG-bAs" firstAttribute="centerY" secondItem="UmS-z0-wrI" secondAttribute="centerY" id="6sL-AE-Dtn"/>
                             <constraint firstItem="LVE-SG-bAs" firstAttribute="centerX" secondItem="UmS-z0-wrI" secondAttribute="centerX" id="7zC-zb-Me9"/>
                             <constraint firstItem="caX-3W-Wm6" firstAttribute="bottom" secondItem="KBf-PE-WlQ" secondAttribute="bottom" constant="294" id="FVe-Gm-RUc"/>
+                            <constraint firstItem="caX-3W-Wm6" firstAttribute="bottom" secondItem="UBk-7U-7RF" secondAttribute="bottom" constant="240" id="dpx-X7-lQN"/>
                             <constraint firstItem="KBf-PE-WlQ" firstAttribute="centerX" secondItem="UmS-z0-wrI" secondAttribute="centerX" id="gxb-Jd-dfK"/>
                             <constraint firstItem="caX-3W-Wm6" firstAttribute="bottom" secondItem="KBf-PE-WlQ" secondAttribute="bottom" constant="294" id="iEe-g3-fVq"/>
+                            <constraint firstItem="UBk-7U-7RF" firstAttribute="centerX" secondItem="UmS-z0-wrI" secondAttribute="centerX" id="rzR-7c-p4r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="caX-3W-Wm6"/>
                     </view>
@@ -127,6 +136,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FnL-zs-RYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3193" y="109"/>
+        </scene>
+        <!--HomeViewController-->
+        <scene sceneID="1Hy-iq-4xa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HomeViewController" storyboardName="Home" referencedIdentifier="HomeViewController" id="W7l-2Q-QkR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVS-VY-4H8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3841" y="104"/>
         </scene>
     </scenes>
 </document>

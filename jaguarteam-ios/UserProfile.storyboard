@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Student Profile View Controller-->
+        <scene sceneID="jSO-VW-ZfF">
+            <objects>
+                <viewController storyboardIdentifier="StudentProfileViewController" id="aWH-WY-UpE" customClass="StudentProfileViewController" customModule="jaguarteam_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="czS-EV-0RL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1x-Ms-fXA">
+                                <rect key="frame" x="150" y="437.5" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X1x-Ms-fXA" firstAttribute="centerX" secondItem="czS-EV-0RL" secondAttribute="centerX" id="8Km-1u-NXb"/>
+                            <constraint firstItem="X1x-Ms-fXA" firstAttribute="centerY" secondItem="czS-EV-0RL" secondAttribute="centerY" id="Ot9-nR-kpQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7Tp-B1-sGu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iWw-On-89R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101" y="153"/>
+        </scene>
+        <!--Teacher Profile View Controller-->
+        <scene sceneID="skL-SP-Mps">
+            <objects>
+                <viewController storyboardIdentifier="TeacherProfileViewController" id="gac-BT-7bg" customClass="TeacherProfileViewController" customModule="jaguarteam_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PVZ-0Y-BZ5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGm-pU-PR6">
+                                <rect key="frame" x="149.5" y="437.5" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihb-Ou-eeV">
+                                <rect key="frame" x="158" y="489" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Request Class"/>
+                                <connections>
+                                    <segue destination="ybd-at-MUG" kind="show" id="ngM-st-T1J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMU-kh-yaz">
+                                <rect key="frame" x="150.5" y="549" width="113" height="30"/>
+                                <state key="normal" title="Send a Message"/>
+                                <connections>
+                                    <segue destination="naD-Mv-UJW" kind="show" id="zNU-9L-2Ud"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hdh-QG-CYH" firstAttribute="bottom" secondItem="bMU-kh-yaz" secondAttribute="bottom" constant="283" id="25l-8D-aRg"/>
+                            <constraint firstItem="iGm-pU-PR6" firstAttribute="centerX" secondItem="PVZ-0Y-BZ5" secondAttribute="centerX" id="VHC-jf-Kyr"/>
+                            <constraint firstItem="bMU-kh-yaz" firstAttribute="centerX" secondItem="PVZ-0Y-BZ5" secondAttribute="centerX" id="qvx-IB-Jth"/>
+                            <constraint firstItem="iGm-pU-PR6" firstAttribute="centerY" secondItem="PVZ-0Y-BZ5" secondAttribute="centerY" id="xm4-j1-IMg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hdh-QG-CYH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KiG-p1-3vd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="577" y="153"/>
+        </scene>
+        <!--uestClassViewController-->
+        <scene sceneID="sXz-pj-D7N">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RequestClass" referencedIdentifier="uestClassViewController" id="ybd-at-MUG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nr-TW-g7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144" y="127"/>
+        </scene>
+        <!--MessageViewController-->
+        <scene sceneID="PDR-kq-Pr3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Message" referencedIdentifier="MessageViewController" id="naD-Mv-UJW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ia0-sK-D9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1135" y="231"/>
+        </scene>
+    </scenes>
+</document>

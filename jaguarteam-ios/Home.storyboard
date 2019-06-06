@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="qJA-P9-9Gc">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="HR5-Ra-IcO" customClass="HomeViewController" customModule="jaguarteam_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qAx-ni-8xW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BA3-kC-Yy6">
+                                <rect key="frame" x="184" y="437.5" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohd-Iu-Oi1">
+                                <rect key="frame" x="137" y="530" width="140" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Teacher Profile"/>
+                                <connections>
+                                    <segue destination="QJl-Rw-EAl" kind="show" id="pCC-6w-fy1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xod-mg-UUC">
+                                <rect key="frame" x="138" y="483" width="139" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Student Profile"/>
+                                <connections>
+                                    <segue destination="07e-Ce-wYK" kind="show" id="ESs-Cd-WeH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BA3-kC-Yy6" firstAttribute="centerY" secondItem="qAx-ni-8xW" secondAttribute="centerY" id="5VI-Ox-kfM"/>
+                            <constraint firstItem="BA3-kC-Yy6" firstAttribute="centerX" secondItem="qAx-ni-8xW" secondAttribute="centerX" id="ca6-de-Lmh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R2T-dW-ccU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hf-tp-qJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221.73913043478262" y="121.875"/>
+        </scene>
+        <!--StudentProfileViewController-->
+        <scene sceneID="eM1-L6-OTb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UserProfile" referencedIdentifier="StudentProfileViewController" id="07e-Ce-wYK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6l-iA-urs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901" y="64"/>
+        </scene>
+        <!--TeacherProfileViewController-->
+        <scene sceneID="YGm-Q9-rEk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UserProfile" referencedIdentifier="TeacherProfileViewController" id="QJl-Rw-EAl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nKM-h9-kMm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896" y="122"/>
+        </scene>
+    </scenes>
+</document>

@@ -62,7 +62,7 @@
         <!--SignUpViewController-->
         <scene sceneID="Zhy-n5-deY">
             <objects>
-                <viewControllerPlaceholder storyboardName="SignUp" referencedIdentifier="SignUpViewController" id="HBR-Ay-cxq" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Auth" referencedIdentifier="SignUpViewController" id="HBR-Ay-cxq" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qte-lB-v3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2715" y="131"/>
@@ -70,7 +70,7 @@
         <!--SignInViewController-->
         <scene sceneID="jMW-mx-BE3">
             <objects>
-                <viewControllerPlaceholder storyboardName="SignUp" referencedIdentifier="SignInViewController" id="DYh-h3-FrI" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Auth" referencedIdentifier="SignInViewController" id="DYh-h3-FrI" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b4t-Bh-0t9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2711" y="178"/>
