@@ -12,6 +12,8 @@
 		0FA10E0422A06D9E00BA8A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA10E0222A06D9E00BA8A44 /* Main.storyboard */; };
 		0FA10E0622A06D9E00BA8A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */; };
 		0FA10E0922A06D9E00BA8A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */; };
+		0FC41FA422A9818C00524BB1 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC41FA322A9818C00524BB1 /* SignUp.storyboard */; };
+		0FC41FA622A9824D00524BB1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FA10E0822A06D9E00BA8A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FA10E0A22A06D9E00BA8A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC41FA322A9818C00524BB1 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */,
 				0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */,
 				0FA10E0222A06D9E00BA8A44 /* Main.storyboard */,
+				0FC41FA322A9818C00524BB1 /* SignUp.storyboard */,
 				0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */,
 				0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */,
 				0FA10E0A22A06D9E00BA8A44 /* Info.plist */,
+				0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */,
 			);
 			path = "jaguarteam-ios";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				0FA10E0922A06D9E00BA8A44 /* LaunchScreen.storyboard in Resources */,
 				0FA10E0622A06D9E00BA8A44 /* Assets.xcassets in Resources */,
+				0FC41FA422A9818C00524BB1 /* SignUp.storyboard in Resources */,
 				0FA10E0422A06D9E00BA8A44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC41FA622A9824D00524BB1 /* SignUpViewController.swift in Sources */,
 				0FA10E0122A06D9E00BA8A44 /* MainViewController.swift in Sources */,
 				0FA10DFF22A06D9E00BA8A44 /* AppDelegate.swift in Sources */,
 			);
