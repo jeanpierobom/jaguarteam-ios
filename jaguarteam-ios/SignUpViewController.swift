@@ -74,16 +74,17 @@ class SignUpViewController: UIViewController {
     //    Sign Up Button Event Handler:
     
     @IBAction func onSignUp(_ sender: Any) {
-        if (name.text == "" || email.text == "" || password.text == "" || confPassword.text == "" || birthDate.text == "") { // Form Check
-            self.present(formAlert, animated: true, completion: nil);
-        } else if (password.text != confPassword.text) { // Password Check
-            self.present(passAlert, animated: true, completion: nil);
-        } else {
+//        if (name.text == "" || email.text == "" || password.text == "" || confPassword.text == "" || birthDate.text == "") { // Form Check
+//            self.present(formAlert, animated: true, completion: nil);
+//        } else if (password.text != confPassword.text) { // Password Check
+//            self.present(passAlert, animated: true, completion: nil);
+//        } else {
             //            Instantiating UserAccount:
             let userData = UserAccount(email: email.text ?? "email@email.com", password: password.text ?? "password", name: name.text ?? "name", cityId: 1, birthDate: "1985-01-01", bio: "bio", motherCountryId: 1, teacherType: "C", teacherPrice: 1);
             signUpRequest(userData: userData);
-        }
+//        }
     }
+    
     
     func signUpRequest(userData: UserAccount) {
         //        Setting Up Session and Request:

@@ -25,6 +25,7 @@
 		0FC41FB822A992AC00524BB1 /* RequestClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */; };
 		0FC41FBA22A9949200524BB1 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC41FB922A9949200524BB1 /* Message.storyboard */; };
 		0FC41FBC22A994CB00524BB1 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */; };
+		551D570E22B6E9F600B5EC13 /* UpdatePriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D570D22B6E9F600B5EC13 /* UpdatePriceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestClassViewController.swift; sourceTree = "<group>"; };
 		0FC41FB922A9949200524BB1 /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 		0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		551D570D22B6E9F600B5EC13 /* UpdatePriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePriceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,25 +82,26 @@
 		0FA10DFD22A06D9E00BA8A44 /* jaguarteam-ios */ = {
 			isa = PBXGroup;
 			children = (
-				0FC41FB922A9949200524BB1 /* Message.storyboard */,
-				0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */,
-				0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */,
-				0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */,
-				0FA10E0222A06D9E00BA8A44 /* Main.storyboard */,
-				0FC41FA322A9818C00524BB1 /* Auth.storyboard */,
-				0FC41FA722A985F800524BB1 /* SignInViewController.swift */,
-				0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */,
-				0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */,
 				0FA10E0A22A06D9E00BA8A44 /* Info.plist */,
-				0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */,
-				0FC41FA922A98CCE00524BB1 /* ForgetPasswordViewController.swift */,
+				0FC41FA322A9818C00524BB1 /* Auth.storyboard */,
 				0FC41FAB22A98F2B00524BB1 /* Home.storyboard */,
-				0FC41FAD22A98F7B00524BB1 /* HomeViewController.swift */,
+				0FC41FB922A9949200524BB1 /* Message.storyboard */,
+				0FC41FB522A9928C00524BB1 /* RequestClass.storyboard */,
 				0FC41FAF22A9911A00524BB1 /* UserProfile.storyboard */,
+				0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */,
+				0FC41FA922A98CCE00524BB1 /* ForgetPasswordViewController.swift */,
+				0FC41FAD22A98F7B00524BB1 /* HomeViewController.swift */,
+				0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */,
+				0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */,
+				0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */,
+				0FC41FA722A985F800524BB1 /* SignInViewController.swift */,
+				0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */,
 				0FC41FB122A9917500524BB1 /* StudentProfileViewController.swift */,
 				0FC41FB322A9918400524BB1 /* TeacherProfileViewController.swift */,
-				0FC41FB522A9928C00524BB1 /* RequestClass.storyboard */,
-				0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */,
+				0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */,
+				0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */,
+				0FA10E0222A06D9E00BA8A44 /* Main.storyboard */,
+				551D570D22B6E9F600B5EC13 /* UpdatePriceViewController.swift */,
 			);
 			path = "jaguarteam-ios";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FC41FA822A985F800524BB1 /* SignInViewController.swift in Sources */,
+				551D570E22B6E9F600B5EC13 /* UpdatePriceViewController.swift in Sources */,
 				0FC41FA622A9824D00524BB1 /* SignUpViewController.swift in Sources */,
 				0FC41FAA22A98CCE00524BB1 /* ForgetPasswordViewController.swift in Sources */,
 				0FA10E0122A06D9E00BA8A44 /* MainViewController.swift in Sources */,
