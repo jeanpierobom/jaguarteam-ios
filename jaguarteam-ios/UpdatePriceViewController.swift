@@ -25,6 +25,7 @@ class UpdatePriceViewController: UIViewController {
     }
     
     
+    
     @IBOutlet weak var editPrice: UITextField!
     @IBOutlet weak var doneButton: UIButton!
     
@@ -38,6 +39,7 @@ class UpdatePriceViewController: UIViewController {
         let mondayClass = updateClassSchedule(id: 4, teacherPrice: Int(editPrice.text!) ?? 35 )
         updateScheduleRequest(dayClass: mondayClass)
     }
+    
     
     
     
@@ -71,6 +73,10 @@ class UpdatePriceViewController: UIViewController {
         //        Making Request:
         task.resume();
     }
+    
+    
+    
+    
     
     /*
      // MARK: - Navigation

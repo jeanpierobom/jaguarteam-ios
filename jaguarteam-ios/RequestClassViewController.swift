@@ -9,7 +9,13 @@
 import UIKit
 
 class RequestClassViewController: UIViewController {
-//STRUCT update Class Schedule TEACHER
+//    struct Availability: Codable {
+//        var dayOfWeek: String
+//        var timeStart: String
+//        var timeEnd: String
+//    }
+//
+    //STRUCT update Class Schedule TEACHER
     struct updateClassSchedule: Codable {
         var id: Int
 //        var teacherType: String
@@ -17,8 +23,9 @@ class RequestClassViewController: UIViewController {
 //        var dayOfWeek: String
 //        var timeStart: String
 //        var timeEnd: String
-//        var availability: [String] = []
+//        var availability: Availability
     }
+    
     
     
     //PRICE COMPONENT AND BUTTON
@@ -180,9 +187,13 @@ class RequestClassViewController: UIViewController {
 
     @IBAction func updateSchedule(_ sender: Any) {
 //FIX THIS ONE
-//        let mondayClass = updateClassSchedule(id: 1,availability:(dayOfWeek: "1", timeStart: startMonday.text ?? "StartTime", timeEnd: endMonday.text ?? "EndTime"))
+//        let testAva = Availability(dayOfWeek: "1", timeStart: startMonday.text ?? "start", timeEnd: endMonday.text ?? "end")
 //
-        
+//
+//        let mondayClass = updateClassSchedule(id: 1,availability: testAva)
+//
+//
+       
         // TESTING TO UPDATE PRICE(WORKING, JUST REMOVE VARIABLES ON updateClassSchedule)
         let mondayClass = updateClassSchedule(id: 4, teacherPrice: 35 )
         updateScheduleRequest(dayClass: mondayClass)

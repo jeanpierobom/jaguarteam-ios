@@ -1,0 +1,6 @@
+framework module Pods_jaguarteam_ios {
+  umbrella header "Pods-jaguarteam-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
