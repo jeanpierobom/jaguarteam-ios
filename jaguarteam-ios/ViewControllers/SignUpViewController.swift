@@ -14,6 +14,7 @@ class SignUpViewController: UIViewController {
     
     var customOrange = UIColor(red: CGFloat(255.0/255.0), green: CGFloat(110.0/255.0), blue: CGFloat(97.0/255.0), alpha: 1.0);
     var fadedOrange = UIColor(red: CGFloat(255.0/255.0), green: CGFloat(143.0/255.0), blue: CGFloat(169.0/255.0), alpha: 1.0);
+    var customBlue = UIColor(red: CGFloat(60.0/255.0), green: CGFloat(91.0/255.0), blue: CGFloat(180.0/255.0), alpha: 1.0);
     
     //    User Accout Structure:
     
@@ -44,6 +45,8 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var header: UIImageView!
     @IBOutlet weak var footerLabel: UILabel!
     @IBOutlet weak var signInButton: UIButton!
+    @IBOutlet weak var signUpFacebook: UIButton!
+    @IBOutlet weak var signUpGoogle: UIButton!
     
     //    Alert Definitions:
     
@@ -52,6 +55,20 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
+        
+        
+        //        Buttons Style:
+        
+        signUpButton.layer.cornerRadius = 20;
+        
+        signUpFacebook.layer.cornerRadius = 10;
+        signUpFacebook.layer.borderColor = customBlue.cgColor;
+        signUpFacebook.layer.borderWidth = 1.0;
+        
+        
+        signUpGoogle.layer.cornerRadius = 10;
+        signUpGoogle.layer.borderColor = UIColor.white.cgColor;
+        signUpGoogle.layer.borderWidth = 1.0;
         
         //        Alert Actions:
         
