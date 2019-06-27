@@ -24,12 +24,18 @@
 		0FC41FB822A992AC00524BB1 /* RequestClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */; };
 		0FC41FBA22A9949200524BB1 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC41FB922A9949200524BB1 /* Message.storyboard */; };
 		0FC41FBC22A994CB00524BB1 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */; };
+<<<<<<< HEAD
 		5522125822C154F900A44A30 /* signIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 5522125722C154F900A44A30 /* signIMG.png */; };
 		552F796122C4758A00C75C2D /* signLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 552F796022C4758A00C75C2D /* signLogo.png */; };
 		554E0F3722C044ED00B9F302 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 554E0F3622C044ED00B9F302 /* logo.png */; };
+=======
+		551D570E22B6E9F600B5EC13 /* UpdatePriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D570D22B6E9F600B5EC13 /* UpdatePriceViewController.swift */; };
+		AD9CEF6EC0D62375756DD034 /* Pods_jaguarteam_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E328D6BE35A5EA47131DA00D /* Pods_jaguarteam_ios.framework */; };
+>>>>>>> eduardo
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04962D48CBEC76C2CB7BF2B6 /* Pods-jaguarteam-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jaguarteam-ios.release.xcconfig"; path = "Target Support Files/Pods-jaguarteam-ios/Pods-jaguarteam-ios.release.xcconfig"; sourceTree = "<group>"; };
 		0FA10DFB22A06D9E00BA8A44 /* jaguarteam-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jaguarteam-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -49,9 +55,15 @@
 		0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestClassViewController.swift; sourceTree = "<group>"; };
 		0FC41FB922A9949200524BB1 /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 		0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		5522125722C154F900A44A30 /* signIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signIMG.png; sourceTree = "<group>"; };
 		552F796022C4758A00C75C2D /* signLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signLogo.png; sourceTree = "<group>"; };
 		554E0F3622C044ED00B9F302 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+=======
+		44B9FBA6BEECA15A6DB92F64 /* Pods-jaguarteam-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jaguarteam-ios.debug.xcconfig"; path = "Target Support Files/Pods-jaguarteam-ios/Pods-jaguarteam-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		551D570D22B6E9F600B5EC13 /* UpdatePriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePriceViewController.swift; sourceTree = "<group>"; };
+		E328D6BE35A5EA47131DA00D /* Pods_jaguarteam_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jaguarteam_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> eduardo
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +71,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9CEF6EC0D62375756DD034 /* Pods_jaguarteam_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069DAC0BCFE910FC55204975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44B9FBA6BEECA15A6DB92F64 /* Pods-jaguarteam-ios.debug.xcconfig */,
+				04962D48CBEC76C2CB7BF2B6 /* Pods-jaguarteam-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0FA10DF222A06D9E00BA8A44 = {
 			isa = PBXGroup;
 			children = (
 				0FA10DFD22A06D9E00BA8A44 /* jaguarteam-ios */,
 				0FA10DFC22A06D9E00BA8A44 /* Products */,
+				069DAC0BCFE910FC55204975 /* Pods */,
+				AD99E6DC4DE81BE0EDA065FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +108,7 @@
 		0FA10DFD22A06D9E00BA8A44 /* jaguarteam-ios */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */,
 				0FA10E0A22A06D9E00BA8A44 /* Info.plist */,
 				5550CB3E22C342CF00E52442 /* Assets */,
@@ -110,6 +135,18 @@
 		5550CB3D22C342A100E52442 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+=======
+				559047EF22B85F14009E2585 /* Controllers */,
+				559047EE22B85F0E009E2585 /* Views */,
+				559047ED22B85F03009E2585 /* Models */,
+				0FA10E0A22A06D9E00BA8A44 /* Info.plist */,
+				0FC41FA322A9818C00524BB1 /* Auth.storyboard */,
+				0FC41FAB22A98F2B00524BB1 /* Home.storyboard */,
+				0FC41FB922A9949200524BB1 /* Message.storyboard */,
+				0FC41FB522A9928C00524BB1 /* RequestClass.storyboard */,
+				0FC41FAF22A9911A00524BB1 /* UserProfile.storyboard */,
+				0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */,
+>>>>>>> eduardo
 				0FC41FA922A98CCE00524BB1 /* ForgetPasswordViewController.swift */,
 				0FC41FAD22A98F7B00524BB1 /* HomeViewController.swift */,
 				0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */,
@@ -119,6 +156,13 @@
 				0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */,
 				0FC41FB122A9917500524BB1 /* StudentProfileViewController.swift */,
 				0FC41FB322A9918400524BB1 /* TeacherProfileViewController.swift */,
+<<<<<<< HEAD
+=======
+				0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */,
+				0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */,
+				0FA10E0222A06D9E00BA8A44 /* Main.storyboard */,
+				551D570D22B6E9F600B5EC13 /* UpdatePriceViewController.swift */,
+>>>>>>> eduardo
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -133,6 +177,35 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		559047ED22B85F03009E2585 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		559047EE22B85F0E009E2585 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		559047EF22B85F14009E2585 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD99E6DC4DE81BE0EDA065FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E328D6BE35A5EA47131DA00D /* Pods_jaguarteam_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FA10E0D22A06D9E00BA8A44 /* Build configuration list for PBXNativeTarget "jaguarteam-ios" */;
 			buildPhases = (
+				538DC8E93B09D7336929990E /* [CP] Check Pods Manifest.lock */,
 				0FA10DF722A06D9E00BA8A44 /* Sources */,
 				0FA10DF822A06D9E00BA8A44 /* Frameworks */,
 				0FA10DF922A06D9E00BA8A44 /* Resources */,
@@ -206,12 +280,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		538DC8E93B09D7336929990E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jaguarteam-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FA10DF722A06D9E00BA8A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0FC41FA822A985F800524BB1 /* SignInViewController.swift in Sources */,
+				551D570E22B6E9F600B5EC13 /* UpdatePriceViewController.swift in Sources */,
 				0FC41FA622A9824D00524BB1 /* SignUpViewController.swift in Sources */,
 				0FC41FAA22A98CCE00524BB1 /* ForgetPasswordViewController.swift in Sources */,
 				0FA10E0122A06D9E00BA8A44 /* MainViewController.swift in Sources */,
@@ -366,6 +466,7 @@
 		};
 		0FA10E0E22A06D9E00BA8A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B9FBA6BEECA15A6DB92F64 /* Pods-jaguarteam-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Langara.jaguarteam-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -384,6 +486,7 @@
 		};
 		0FA10E0F22A06D9E00BA8A44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04962D48CBEC76C2CB7BF2B6 /* Pods-jaguarteam-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Langara.jaguarteam-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
