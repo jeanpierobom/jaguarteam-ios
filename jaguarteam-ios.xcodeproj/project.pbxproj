@@ -10,7 +10,6 @@
 		0FA10DFF22A06D9E00BA8A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */; };
 		0FA10E0122A06D9E00BA8A44 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */; };
 		0FA10E0422A06D9E00BA8A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA10E0222A06D9E00BA8A44 /* Main.storyboard */; };
-		0FA10E0622A06D9E00BA8A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */; };
 		0FA10E0922A06D9E00BA8A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */; };
 		0FC41FA422A9818C00524BB1 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC41FA322A9818C00524BB1 /* Auth.storyboard */; };
 		0FC41FA622A9824D00524BB1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */; };
@@ -25,6 +24,9 @@
 		0FC41FB822A992AC00524BB1 /* RequestClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */; };
 		0FC41FBA22A9949200524BB1 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC41FB922A9949200524BB1 /* Message.storyboard */; };
 		0FC41FBC22A994CB00524BB1 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */; };
+		5522125822C154F900A44A30 /* signIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 5522125722C154F900A44A30 /* signIMG.png */; };
+		552F796122C4758A00C75C2D /* signLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 552F796022C4758A00C75C2D /* signLogo.png */; };
+		554E0F3722C044ED00B9F302 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 554E0F3622C044ED00B9F302 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +34,6 @@
 		0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0FA10E0322A06D9E00BA8A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FA10E0822A06D9E00BA8A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FA10E0A22A06D9E00BA8A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FC41FA322A9818C00524BB1 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
@@ -48,6 +49,9 @@
 		0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestClassViewController.swift; sourceTree = "<group>"; };
 		0FC41FB922A9949200524BB1 /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 		0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		5522125722C154F900A44A30 /* signIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signIMG.png; sourceTree = "<group>"; };
+		552F796022C4758A00C75C2D /* signLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signLogo.png; sourceTree = "<group>"; };
+		554E0F3622C044ED00B9F302 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,27 +84,53 @@
 		0FA10DFD22A06D9E00BA8A44 /* jaguarteam-ios */ = {
 			isa = PBXGroup;
 			children = (
-				0FC41FB922A9949200524BB1 /* Message.storyboard */,
-				0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */,
 				0FA10DFE22A06D9E00BA8A44 /* AppDelegate.swift */,
-				0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */,
-				0FA10E0222A06D9E00BA8A44 /* Main.storyboard */,
-				0FC41FA322A9818C00524BB1 /* Auth.storyboard */,
-				0FC41FA722A985F800524BB1 /* SignInViewController.swift */,
-				0FA10E0522A06D9E00BA8A44 /* Assets.xcassets */,
-				0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */,
 				0FA10E0A22A06D9E00BA8A44 /* Info.plist */,
-				0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */,
-				0FC41FA922A98CCE00524BB1 /* ForgetPasswordViewController.swift */,
-				0FC41FAB22A98F2B00524BB1 /* Home.storyboard */,
-				0FC41FAD22A98F7B00524BB1 /* HomeViewController.swift */,
-				0FC41FAF22A9911A00524BB1 /* UserProfile.storyboard */,
-				0FC41FB122A9917500524BB1 /* StudentProfileViewController.swift */,
-				0FC41FB322A9918400524BB1 /* TeacherProfileViewController.swift */,
-				0FC41FB522A9928C00524BB1 /* RequestClass.storyboard */,
-				0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */,
+				5550CB3E22C342CF00E52442 /* Assets */,
+				5550CB3D22C342A100E52442 /* ViewControllers */,
+				5550CB3C22C3427100E52442 /* storyboards */,
 			);
 			path = "jaguarteam-ios";
+			sourceTree = "<group>";
+		};
+		5550CB3C22C3427100E52442 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0FC41FA322A9818C00524BB1 /* Auth.storyboard */,
+				0FC41FAB22A98F2B00524BB1 /* Home.storyboard */,
+				0FC41FB922A9949200524BB1 /* Message.storyboard */,
+				0FC41FB522A9928C00524BB1 /* RequestClass.storyboard */,
+				0FC41FAF22A9911A00524BB1 /* UserProfile.storyboard */,
+				0FA10E0722A06D9E00BA8A44 /* LaunchScreen.storyboard */,
+				0FA10E0222A06D9E00BA8A44 /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		5550CB3D22C342A100E52442 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FC41FA922A98CCE00524BB1 /* ForgetPasswordViewController.swift */,
+				0FC41FAD22A98F7B00524BB1 /* HomeViewController.swift */,
+				0FA10E0022A06D9E00BA8A44 /* MainViewController.swift */,
+				0FC41FBB22A994CB00524BB1 /* MessageViewController.swift */,
+				0FC41FB722A992AC00524BB1 /* RequestClassViewController.swift */,
+				0FC41FA722A985F800524BB1 /* SignInViewController.swift */,
+				0FC41FA522A9824D00524BB1 /* SignUpViewController.swift */,
+				0FC41FB122A9917500524BB1 /* StudentProfileViewController.swift */,
+				0FC41FB322A9918400524BB1 /* TeacherProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5550CB3E22C342CF00E52442 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				552F796022C4758A00C75C2D /* signLogo.png */,
+				554E0F3622C044ED00B9F302 /* logo.png */,
+				5522125722C154F900A44A30 /* signIMG.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,11 +192,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA10E0922A06D9E00BA8A44 /* LaunchScreen.storyboard in Resources */,
+				552F796122C4758A00C75C2D /* signLogo.png in Resources */,
 				0FC41FBA22A9949200524BB1 /* Message.storyboard in Resources */,
+				5522125822C154F900A44A30 /* signIMG.png in Resources */,
+				554E0F3722C044ED00B9F302 /* logo.png in Resources */,
 				0FC41FAC22A98F2B00524BB1 /* Home.storyboard in Resources */,
 				0FC41FB622A9928C00524BB1 /* RequestClass.storyboard in Resources */,
 				0FC41FB022A9911A00524BB1 /* UserProfile.storyboard in Resources */,
-				0FA10E0622A06D9E00BA8A44 /* Assets.xcassets in Resources */,
 				0FC41FA422A9818C00524BB1 /* Auth.storyboard in Resources */,
 				0FA10E0422A06D9E00BA8A44 /* Main.storyboard in Resources */,
 			);

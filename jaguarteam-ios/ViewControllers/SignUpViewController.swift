@@ -56,6 +56,7 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         
+        
         //        Buttons Style:
         
         signUpButton.layer.cornerRadius = 20;
